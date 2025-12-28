@@ -1,8 +1,3 @@
----
-title: Final Project
-
----
-
 # Final Project
 
 ## Naive Bayes Classification
