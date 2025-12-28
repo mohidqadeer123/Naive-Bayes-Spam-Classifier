@@ -71,7 +71,9 @@ $P(Yes) = \frac{3}{5}$
 $P(No) = \frac{2}{5}$
 
 * Compute Likelihoods using:
-$$\text{P(Feature=x_i∣ C)}=\frac{\text{Count of samples where Feature = x_i and C=c​}}{\text{Count(C)}}$$
+$$
+P(\text{Feature}=x_i \mid C=c) = \frac{\text{Count of samples where Feature = x_i and } C=c}{\text{Count}(C=c)}
+$$
 
 #### Weather
 
