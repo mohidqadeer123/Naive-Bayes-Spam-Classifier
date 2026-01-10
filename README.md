@@ -84,6 +84,4 @@ Each model is evaluated on the same dataset to analyze how assumptions of differ
 - matplotlib, seaborn  
 - Jupyter Notebook  
 
----
 
-## 🚀 How to Run the Project
