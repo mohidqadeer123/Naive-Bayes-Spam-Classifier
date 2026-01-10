@@ -1,6 +1,6 @@
 import streamlit as st 
 import pickle
-import numpy as np 
+import numpy as np  
 
 # Load model and vectorizer
 with open("model/model.pkl","rb") as f:
@@ -24,10 +24,10 @@ if st.button("Predict"):
     else:
         transformed = vectorizer.transform([user_input])
         prediction = model.predict(transformed)[0]
-        probability= model.pred_probab(transformed).max
+        probability = model.predict_proba(transformed).max()
 
         if prediction == 1:
-            st.erro(f"🚨 SPAM ({probability:.2%} confidence)")
+            st.error(f"🚨 SPAM ({probability:.2%} confidence)")
 
         else:
             st.success(f"✅ HAM ({probability:.2%} confidence)")
