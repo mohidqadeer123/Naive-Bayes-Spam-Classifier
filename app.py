@@ -1,6 +1,7 @@
 import streamlit as st 
 import pickle
 import numpy as np  
+from joblib import load
 
 # Load model and vectorizer
 model = load("model/model.joblib")
