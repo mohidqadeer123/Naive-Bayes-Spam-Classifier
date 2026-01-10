@@ -19,7 +19,7 @@ user_input=st.text_area("Enter the Message")
 
 if st.button("Predict"):
     if user_input.strip()=="":
-    st.warning("Please enter a message")
+    st.warning("Please enter a message:")
 
     else:
         transformed = vectorizer.transform([user_input])
