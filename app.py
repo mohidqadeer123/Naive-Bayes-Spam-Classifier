@@ -18,7 +18,7 @@ st.write("Classifies messages as **Spam** or **Ham** using Multinomial Naive Bay
 user_input=st.text_area("Enter the Message")
 
 if st.button("Predict"):
-    if user_input.strip()==""
+    if user_input.strip()=="":
     st.warning("Please enter a message")
 
     else:
